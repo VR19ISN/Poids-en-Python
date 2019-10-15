@@ -1,0 +1,5 @@
+p = float(input("Entrez votre poids en kg : \n"))
+t= float(input("Entrez votre taille en m : \n"))
+imc = p/(t*t)
+imc = str(round(imc, 2))
+print("Votre imc est de : " + imc)
